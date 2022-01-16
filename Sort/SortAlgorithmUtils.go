@@ -2,6 +2,8 @@ package Sort
 
 import "math"
 
+const RADIX = 10
+
 // 在数组中交换指定下标的数字
 func swap(nums []int, i int, j int) {
 	nums[i], nums[j] = nums[j], nums[i]
