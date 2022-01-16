@@ -4,9 +4,7 @@ import "math"
 
 // 在数组中交换指定下标的数字
 func swap(nums []int, i int, j int) {
-	temp := nums[i]
-	nums[i] = nums[j]
-	nums[j] = temp
+	nums[i], nums[j] = nums[j], nums[i]
 }
 
 // 找出最大值

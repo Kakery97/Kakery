@@ -25,7 +25,7 @@ func mergeSortProcess(nums []int, l, r int) {
 	m := l + ((r - l) >> 1)      // 位操作取中点
 	mergeSortProcess(nums, l, m) // 分治-分割: 递归地把当前序列平均分割成两半
 	mergeSortProcess(nums, m+1, r)
-	merge(nums, l, m, r) // 分治-集成：在保持元素顺序的同时将上一步得到的子序列集成到一起
+	merge(nums, l, m, r) // 分治-集成: 在保持元素顺序的同时将上一步得到的子序列集成到一起
 }
 
 // 归并操作: 合并nums数组中已经有序的两个部分l~m以及m+1~r
