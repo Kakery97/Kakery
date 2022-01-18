@@ -2,12 +2,11 @@ package LinkedList
 
 // 复制带随机指针的链表 (LeetCode_138)
 // https://leetcode-cn.com/problems/copy-list-with-random-pointer/
-// 链表每个节点包含一个额外增加的随机指针random, 该指针可以指向链表中的任何节点或空节点
-// 构造这个链表的深拷贝
+// 链表每个节点包含一个额外增加的随机指针random, 该指针可以指向链表中的任何节点或空节点, 构造这个链表的深拷贝
+// 实现方法: 迭代 + 节点拆分
 //
 // 时间复杂度  О(n)
 // 空间复杂度  O(1)
-// 实现方法: 迭代 + 节点拆分
 func copyRandomList(head *Node) *Node {
 	if head == nil {
 		return nil

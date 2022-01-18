@@ -2,7 +2,8 @@ package LinkedList
 
 // 判断链表是否为回文链表 (LeetCode_234)
 // https://leetcode-cn.com/problems/palindrome-linked-list/
-// 采用快慢指针实现
+// 实现方法: 采用快慢指针实现链表中点查找
+// *注意: 若链表中有偶数个元素, 则中点必须指到第1个中间结点!!!
 //
 // 时间复杂度  О(n)
 // 空间复杂度  O(1)
