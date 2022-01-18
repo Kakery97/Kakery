@@ -62,7 +62,7 @@ func partition2(head *ListNode, x int) *ListNode {
 	return leftHead.Next
 }
 
-// 附 - partition划分为左小于于, 中间等于, 右边大于三个区域
+// 附 - partition划分为左小于, 中间等于, 右边大于三个区域
 func partition(head *ListNode, x int) *ListNode {
 	leftHead, midHead, rightHead := &ListNode{}, &ListNode{}, &ListNode{}
 	leftTail, midTail, rightTail := leftHead, midHead, rightHead

@@ -7,7 +7,7 @@ package LinkedList
 //
 // 时间复杂度  О(n)
 // 空间复杂度  O(1)
-// 1. LeetCode原题 - 保证两个链表中都不存在环的情况
+// LeetCode原题 - 保证两个链表中都不存在环的情况
 func getIntersectionNodeNoLoop(headA, headB *ListNode) *ListNode {
 	if headA == nil || headB == nil {
 		return nil
@@ -41,7 +41,7 @@ func getIntersectionNodeNoLoop(headA, headB *ListNode) *ListNode {
 	return headA
 }
 
-// 2. 附 - 两个链表中都存在环的情况
+// 附 - 两个链表中都存在环的情况
 // loopNodeA, loopNodeB分别为两个链表的第一个入环节点
 func getIntersectionNodeBothLoop(headA, headB, loopNodeA, loopNodeB *ListNode) *ListNode {
 	curA := loopNodeA.Next      // 零时节点设置为链表A第一个入环节点的下一个
@@ -61,7 +61,7 @@ func getIntersectionNodeBothLoop(headA, headB, loopNodeA, loopNodeB *ListNode) *
 	}
 }
 
-// 3. 附 - 总情况: 给定两个可能有环也可能无环的单链表, 找出并返回两个单链表相交的起始节点
+// 附 - 总情况: 给定两个可能有环也可能无环的单链表, 找出并返回两个单链表相交的起始节点
 func getIntersectionNode(headA, headB *ListNode) *ListNode {
 	if headA == nil || headB == nil {
 		return nil
