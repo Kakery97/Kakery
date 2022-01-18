@@ -12,3 +12,10 @@ type DuListNode struct {
 	Prev *DuListNode
 	Next *DuListNode
 }
+
+// Node - 带有随机结点的链表结构体定义
+type Node struct {
+	Val    int
+	Next   *Node
+	Random *Node
+}
