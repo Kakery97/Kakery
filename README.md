@@ -27,4 +27,8 @@
 - [三. 二叉树](https://github.com/Kakery97/Kakery/tree/master/03_BinaryTree)
   - [1. 二叉树的深度优先遍历](https://github.com/Kakery97/Kakery/blob/master/03_BinaryTree/01_DepthFirstSearchOfBinaryTree.go)
   - [2. 二叉树的广度优先遍历](https://github.com/Kakery97/Kakery/blob/master/03_BinaryTree/02_BreadthFirstSearchOfBinaryTree.go)
+  - [3. 验证二叉搜索树](https://github.com/Kakery97/Kakery/blob/master/03_BinaryTree/03_IsBinarySearchTree.go)
+  - [4. 二叉树的完全性检验](https://github.com/Kakery97/Kakery/blob/master/03_BinaryTree/04_IsCompleteBinaryTree.go)
+  - [5. 验证平衡二叉树](https://github.com/Kakery97/Kakery/blob/master/03_BinaryTree/05_IsBalancedBinaryTree.go)
+  - [6. 二叉树的最近公共祖先](https://github.com/Kakery97/Kakery/blob/master/03_BinaryTree/06_LowestCommonAncestor.go)
 - [一些典型的题目](https://github.com/Kakery97/Kakery/tree/master/Problems)
