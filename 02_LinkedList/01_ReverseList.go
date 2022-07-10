@@ -1,7 +1,7 @@
 package LinkedList
 
 // 反转单向链表 (LeetCode_206)
-// https://leetcode-cn.com/problems/reverse-linked-list/
+// https://leetcode.cn/problems/reverse-linked-list/
 // 采用双指针迭代实现
 // 因为链表头会改变所以会有返回值
 //

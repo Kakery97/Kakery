@@ -1,7 +1,7 @@
 package LinkedList
 
 // 相交链表起始节点判断 (LeetCode_160)
-// https://leetcode-cn.com/problems/intersection-of-two-linked-lists/
+// https://leetcode.cn/problems/intersection-of-two-linked-lists/
 // 找出并返回两个单链表相交的起始节点
 // 实现方法: 采用快慢指针实现链表环形的判断
 //

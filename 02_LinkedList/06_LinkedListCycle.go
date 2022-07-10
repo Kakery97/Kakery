@@ -1,8 +1,8 @@
 package LinkedList
 
 // 环形链表判断 (LeetCode_141, LeetCode_142)
-// https://leetcode-cn.com/problems/linked-list-cycle/  -  判断链表中是否有环
-// https://leetcode-cn.com/problems/linked-list-cycle-ii/  -  返回链表开始入环的第一个节点
+// https://leetcode.cn/problems/linked-list-cycle/  -  判断链表中是否有环
+// https://leetcode.cn/problems/linked-list-cycle-ii/  -  返回链表开始入环的第一个节点
 // 实现方法: 采用快慢指针实现链表环形的判断
 //
 // 时间复杂度  О(n)

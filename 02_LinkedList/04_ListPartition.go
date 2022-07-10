@@ -1,7 +1,7 @@
 package LinkedList
 
 // 分隔链表 (LeetCode_86)
-// https://leetcode-cn.com/problems/partition-list/
+// https://leetcode.cn/problems/partition-list/
 // 使得所有 小于 x 的节点都出现在 大于或等于 x 的节点之前
 // 同时保留两个分区中每个节点的初始相对位置 (保持稳定)
 //

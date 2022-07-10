@@ -1,7 +1,7 @@
 package Problems
 
 // 剑指 Offer 51. 数组中的逆序对
-// https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/
+// https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/
 // 分治 + 归并排序
 func reversePairs(nums []int) int {
 	// 数组为空或长度为1, 直接返回0

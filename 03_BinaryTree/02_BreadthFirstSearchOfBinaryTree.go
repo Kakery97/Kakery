@@ -32,3 +32,40 @@ func levelOrder(root *TreeNode) (res [][]int) {
 	}
 	return
 }
+
+// 附 - 运用题目 二叉树的最大宽度 (LeetCode_662)
+// https://leetcode.cn/problems/maximum-width-of-binary-tree/
+// 这道题需要统计的最大宽度需要统计空结点
+// 使用数组存储二叉树的规律：下标为i的结点, 左孩子下标为2*i+1, 右孩子下标为2*i+2
+//
+// 时间复杂度  О(n)
+// 空间复杂度  O(n)
+func widthOfBinaryTree(root *TreeNode) (max int) {
+	if root == nil {
+		return
+	}
+	queue := []*TreeNode{root}
+	root.Val = 0
+	for len(queue) > 0 {
+		temp, size := 0, len(queue)
+		for i := 0; i < size; i++ {
+			node := queue[0]
+			queue = queue[1:]
+			if i == 0 {
+				temp = node.Val
+			}
+			if i == size-1 {
+				max = maxInt(max, node.Val-temp+1)
+			}
+			if node.Left != nil {
+				node.Left.Val = 2*node.Val + 1
+				queue = append(queue, node.Left)
+			}
+			if node.Right != nil {
+				node.Right.Val = 2*node.Val + 2
+				queue = append(queue, node.Right)
+			}
+		}
+	}
+	return
+}
